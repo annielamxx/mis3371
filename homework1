@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+    Program name: 
+    Author: Your name
+    Date created: MM/DD/YYYY
+    Date last edited: MM/DD/YYYY
+    Version: 1.0
+    Description: Homework 1 HTML 
+  -->
+  <html lang="en">
+  <head>
+    <link rel="stylesheet" href="yourfilename.css"> <!-- links to css file-->
+    <title>Insert title here</title>
+</head>
+</html>
+<body>
+<header>
+    <table width="100%">
+        <tr>
+            <td valign="top" align="left" width="20%">
+                <div class="image">
+                    <img align="center" src="cliniclogo.png" alt="Inset name of your Logo" width="70px" id="logo"/>
+                </div>
+            </td>
+            <td>
+                <h2>Insert name</h2>
+            </td>
+            <td valign="bottom" align="right" width="20%">
+                <p>Today's Date: <span id="today"></span></p>
+            </td>
+        </tr>
+    </table>
+</header>
+<hr>
