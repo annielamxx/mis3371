@@ -32,3 +32,98 @@
     </table>
 </header>
 <hr>
+<form action="thankyou.html">
+    <center>
+        <div class="format">
+            <table>
+
+<tr>
+    <th colspan="4">Create Account</th>
+</tr>
+<tr>
+    <td><label for="fname">First Name:</label></td>
+    <td>
+        <input type="text" 
+        name="fname" 
+        id="fname" 
+        maxlength="30" 
+        title="Please enter your first name" 
+        required 
+        placeholder="yourname">
+    </td>
+</tr>
+<tr>
+    <th colspan="4">Create Account</th>
+</tr>
+<tr>
+    <td><label for="mname">Middle Name:</label></td>
+    <td>
+        <input type="text" 
+        name="mname" 
+        id="mname" 
+        maxlength="30" 
+        title="Please enter your middle name" 
+        required 
+        placeholder="yourname">
+    </td>
+</tr>
+<tr>
+    <th colspan="4">Create Account</th>
+</tr>
+<tr>
+    <td><label for="lname">Last Name:</label></td>
+    <td>
+        <input type="text" 
+        name="lname" 
+        id="lname" 
+        maxlength="30" 
+        title="Please enter your Last name" 
+        required 
+        placeholder="yourname">
+    </td>
+</tr>
+
+<tr>
+    <td><label for="pgender">Gender:</label></td>
+    <td>
+        <input type="radio" id="g1" name="pgender" value="Male"> Male
+        <input type="radio" id="g2" name="pgender" value="Female"> Female
+        <input type="radio" id="g3" name="pgender" value="Other"> Other
+    </td>
+</tr>
+
+<tr>
+    <td><label for="dob">Date of Birth:</label></td>
+    <td>
+        <input type="date" 
+        id="dob" 
+        name="dob"
+        placeholder="07/24/2013>
+    </td>
+</tr>
+
+<tr>
+		<td><label for="phone">Phone Number:</label></td>
+    <td>
+        <input type="text" 
+        name="phone" 
+        id="phone" 
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+        required 
+        title="Please enter phone number" 
+        placeholder="123-456-7890"/>
+    </td>
+</tr>
+
+<tr>
+    <td><label for="address1">Address Line 1:</label></td>
+    <td>
+        <input type="text" 
+        name="address1" 
+        id="address1" 
+        maxlength="30" 
+        required 
+        placeholder="1234 Address">
+    </td>
+</tr>
+
